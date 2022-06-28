@@ -11,6 +11,8 @@
 		DD6870C8286AEFAA006DBCFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6870C7286AEFAA006DBCFE /* ContentView.swift */; };
 		DD6870CA286AEFAC006DBCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6870C9286AEFAC006DBCFE /* Assets.xcassets */; };
 		DD6870CD286AEFAC006DBCFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6870CC286AEFAC006DBCFE /* Preview Assets.xcassets */; };
+		DD6870D6286AF1E8006DBCFE /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6870D4286AF1E8006DBCFE /* AccountBackground.swift */; };
+		DD6870D7286AF1E8006DBCFE /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6870D5286AF1E8006DBCFE /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DD6870C7286AEFAA006DBCFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6870C9286AEFAC006DBCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6870CC286AEFAC006DBCFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD6870D4286AF1E8006DBCFE /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountBackground.swift; path = ../../../../Downloads/Assets/Code/Graphics/AccountBackground.swift; sourceTree = "<group>"; };
+		DD6870D5286AF1E8006DBCFE /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisualEffectBlur.swift; path = ../../../../Downloads/Assets/Code/Graphics/VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		DD6870C4286AEFAA006DBCFE /* SwiftUI Combine and Data */ = {
 			isa = PBXGroup;
 			children = (
+				DD6870D3286AF1DB006DBCFE /* Graphics */,
 				DD6870C5286AEFAA006DBCFE /* SwiftUI_Combine_and_DataApp.swift */,
 				DD6870C7286AEFAA006DBCFE /* ContentView.swift */,
 				DD6870C9286AEFAC006DBCFE /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				DD6870CC286AEFAC006DBCFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD6870D3286AF1DB006DBCFE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				DD6870D4286AF1E8006DBCFE /* AccountBackground.swift */,
+				DD6870D5286AF1E8006DBCFE /* VisualEffectBlur.swift */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6870C8286AEFAA006DBCFE /* ContentView.swift in Sources */,
+				DD6870D6286AF1E8006DBCFE /* AccountBackground.swift in Sources */,
 				DD6870C6286AEFAA006DBCFE /* SwiftUI_Combine_and_DataApp.swift in Sources */,
+				DD6870D7286AF1E8006DBCFE /* VisualEffectBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
